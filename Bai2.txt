@@ -11,6 +11,7 @@ typedef struct MatHang MATHANG;
 
 void NhapMatHang(MATHANG &mh)
 {
+    fflush(stdin);
     printf("Nhap ten mat hang: \n");
     gets(mh.TenMatHang);
 
